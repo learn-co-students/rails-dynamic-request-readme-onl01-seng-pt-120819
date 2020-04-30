@@ -71,6 +71,7 @@ _config/routes.rb_ that maps to a show action in the PostsController:
 
 ```ruby
 get 'posts/:id', to: 'posts#show'
+
 ```
 
 Here you will notice something that's different from the static route. The
